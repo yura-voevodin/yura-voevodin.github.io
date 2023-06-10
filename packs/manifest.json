@@ -1,0 +1,60 @@
+{
+  "application.js": "/packs/js/application-f1e26449d4e1ef58540d.js",
+  "application.js.map": "/packs/js/application-f1e26449d4e1ef58540d.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-f1e26449d4e1ef58540d.js"
+      ],
+      "js.map": [
+        "/packs/js/application-f1e26449d4e1ef58540d.js.map"
+      ]
+    }
+  },
+  "media/fonts/bootstrap-icons.woff2?524846017b983fc8ded9325d94ed40f3": "/packs/media/fonts/bootstrap-icons-a13b8155.woff2",
+  "media/fonts/bootstrap-icons.woff?524846017b983fc8ded9325d94ed40f3": "/packs/media/fonts/bootstrap-icons-c1d7432e.woff",
+  "media/images/avatar.jpeg": "/packs/media/images/avatar-f368ce91fc69542619246cf1a54298bf.jpeg",
+  "media/images/dot.svg": "/packs/media/images/dot-8390d415a4274a447456fee880502c1e.svg",
+  "media/images/games/b5.jpg": "/packs/media/images/games/b5-73e65b31ccbc643e8004c984394b865c.jpg",
+  "media/images/games/d2.jpg": "/packs/media/images/games/d2-26e210ffb1971ec41462db6d3a31d58b.jpg",
+  "media/images/games/heartstone.jpg": "/packs/media/images/games/heartstone-4fff3c606c794dc03a915b9071f562d3.jpg",
+  "media/images/games/heroes_of_the_storm.jpg": "/packs/media/images/games/heroes_of_the_storm-bdfa9d56175e8006808c6c262a6a05e0.jpg",
+  "media/images/games/l2.jpg": "/packs/media/images/games/l2-1a969da3bec7ceb80cf9f16fb3cc4161.jpg",
+  "media/images/low-data-mode/iOS low data mode.png": "/packs/media/images/low-data-mode/iOS%20low%20data%20mode-4766f77a33dc2b41333ad9ecd28a73a9.png",
+  "media/images/low-data-mode/instagram low data mode.png": "/packs/media/images/low-data-mode/instagram%20low%20data%20mode-679375201e2967b130f6868aa2cffb81.png",
+  "media/images/low-data-mode/telegram low data mode.png": "/packs/media/images/low-data-mode/telegram%20low%20data%20mode-7b8ab86bf84fd20965db6bf84922837c.png",
+  "media/images/low-data-mode/twitter low data mode.png": "/packs/media/images/low-data-mode/twitter%20low%20data%20mode-1cb897f4dc33d71378b1c2fef9e692ac.png",
+  "media/images/movies/Finch.jpeg": "/packs/media/images/movies/Finch-011e118b618617da3c8a1af9fd678d0b.jpeg",
+  "media/images/movies/Invasion.jpeg": "/packs/media/images/movies/Invasion-58d3ce047576bff3e885f99073452ced.jpeg",
+  "media/images/movies/ac.jpg": "/packs/media/images/movies/ac-d417b5ad1e04b7a41cf4330bab7ad8dc.jpg",
+  "media/images/movies/dune.jpg": "/packs/media/images/movies/dune-c1f8ad3e3f77405acb8241298ab5c2e3.jpg",
+  "media/images/movies/foundation.jpeg": "/packs/media/images/movies/foundation-3ea97e2025aee7e7e72732ca237ad343.jpeg",
+  "media/images/movies/ldr.jpg": "/packs/media/images/movies/ldr-73c193faeefe0ea00319ecac4d3d52fc.jpg",
+  "media/images/movies/ms.png": "/packs/media/images/movies/ms-37c50fba725858671fb3614bb961c78d.png",
+  "media/images/movies/see.jpg": "/packs/media/images/movies/see-4137016bd7b0859999c72bcca8aa4612.jpg",
+  "media/images/movies/tm.png": "/packs/media/images/movies/tm-fa43c320394a33374dbb18e26eec173d.png",
+  "media/images/my-university.png": "/packs/media/images/my-university-1ffa4b164e92b49fa5c1606ebca9c80a.png",
+  "media/images/photos/1.jpeg": "/packs/media/images/photos/1-74c0ad5eca7767e43028692576d25855.jpeg",
+  "media/images/photos/2.jpeg": "/packs/media/images/photos/2-8ae28d41f7f04331d9d2e848f5b07b0b.jpeg",
+  "media/images/photos/3.jpeg": "/packs/media/images/photos/3-ef613aba7b27b590474c237541197f1a.jpeg",
+  "media/images/photos/4.jpeg": "/packs/media/images/photos/4-b4c849e74d2c5fc72df6c168ed4bec0b.jpeg",
+  "media/images/photos/5.jpeg": "/packs/media/images/photos/5-7697e092222aea69f1dcf4ee57978feb.jpeg",
+  "media/images/photos/6.jpeg": "/packs/media/images/photos/6-d94913eedeb483bb1ff6a47b4b32ed25.jpeg",
+  "media/images/photos/7.jpeg": "/packs/media/images/photos/7-e160631c4ddd7611ef6870209f17e084.jpeg",
+  "media/images/photos/8.jpeg": "/packs/media/images/photos/8-8545069b149e119e8ba41c71c9b6314f.jpeg",
+  "media/images/photos/9.jpeg": "/packs/media/images/photos/9-40a70567c7e3f511996a612652ff5015.jpeg",
+  "media/images/timeline/bvblogic.jpg": "/packs/media/images/timeline/bvblogic-8be98c663a7aa36730a6d692477d55af.jpg",
+  "media/images/timeline/cashbox.jpg": "/packs/media/images/timeline/cashbox-d2389169b535f9211b348f394588a0cd.jpg",
+  "media/images/timeline/chronograph_ios_collage.jpg": "/packs/media/images/timeline/chronograph_ios_collage-3f3fd91159517c90107648f04bdfad13.jpg",
+  "media/images/timeline/chronograph_mac_os.jpg": "/packs/media/images/timeline/chronograph_mac_os-dc17a83f16322c26d4b300909a87951c.jpg",
+  "media/images/timeline/chronograph_old.jpg": "/packs/media/images/timeline/chronograph_old-aa2d2049872495b7b2ce00ef16d0dc21.jpg",
+  "media/images/timeline/college.jpeg": "/packs/media/images/timeline/college-325e65b134a74ea2fd05d4c336db67a4.jpeg",
+  "media/images/timeline/eve.jpg": "/packs/media/images/timeline/eve-384d43016315754a2bec6e45c9d5b6b9.jpg",
+  "media/images/timeline/home_office_2021.jpeg": "/packs/media/images/timeline/home_office_2021-20052c6641dcf3825a639199c28031e8.jpeg",
+  "media/images/timeline/lookup.jpg": "/packs/media/images/timeline/lookup-b759a275b6c59941466bb3669b791336.jpg",
+  "media/images/timeline/macbook_2013.jpeg": "/packs/media/images/timeline/macbook_2013-ba9c8c50e0860ef41438a5aa51d88dbe.jpeg",
+  "media/images/timeline/office.jpg": "/packs/media/images/timeline/office-294be113df00a1fc43dfbde177163bee.jpg",
+  "media/images/timeline/proveit.jpg": "/packs/media/images/timeline/proveit-54e04fb04a1a8ac13a9cc28a44e3e49a.jpg",
+  "media/images/timeline/sumdu.jpg": "/packs/media/images/timeline/sumdu-96b92a183c24da10affe5a60c11a9932.jpg",
+  "media/images/timeline/sumdu.png": "/packs/media/images/timeline/sumdu-bbff62355d3845aece207b23fe8a9009.png"
+}

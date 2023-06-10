@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ua" data-bs-theme="dark">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="description" content="Yura Voevodin Personal Website" />
+  <meta name="keywords" content="iOS,iPadOS,macOS,tvOS,iPhone,iPad,iMac,MacBook,Developer,Swift" />
+
+  <!-- For new browsers - multisize ico  -->
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="favicon.ico">
+  
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon-152-precomposed.png">
+  
+  <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon-144-precomposed.png">
+  
+  <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon-120-precomposed.png">
+  
+  <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon-114-precomposed.png">
+
+  <title>Tesla Timeline</title>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="NXbHWY-csBmYOeN1QF4TksHkMM8OGCeBQ0aln6HJNz6hyTGbe6yxIq1ZxgD2hVO-WQsn8T1TToP-0invmz8_6w" />
+  
+
+  <link rel="stylesheet" href="/assets/application-1339dd0c36414ad3e06e76dd55a1ef32106dc5c94d6c5136d27c820b8eced1ff.css" data-turbo-track="reload" />
+  <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-93f0769adf92766851dac7841b1d6daaf9ca2e2f51a0eb8d627e86469c422370.js",
+    "bootstrap": "https://ga.jspm.io/npm:bootstrap@5.2.0-beta1/dist/js/bootstrap.esm.js",
+    "@popperjs/core": "https://ga.jspm.io/npm:@popperjs/core@2.11.5/lib/index.js",
+    "jquery": "https://code.jquery.com/jquery-3.6.0.min.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-93f0769adf92766851dac7841b1d6daaf9ca2e2f51a0eb8d627e86469c422370.js">
+<script src="/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js" async="async" data-turbo-track="reload"></script>
+<script type="module">import "application"</script>
+</head>
+
+<body><main><div class="col-8 mx-auto py-md-5">
+
+    <div class="row">
+        <div class="my-3"><a href="/pages/bootstrap_5_timeline" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Return to article</a></div>
+    </div>
+
+    <div class="row fs-5">
+        <h1 class="text-center">Tesla Timeline</h1>
+    </div>
+
+    <div>
+        <div class="row">
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="row h-50"></div>
+                <i class="bi bi-circle" style="font-size: 1.5rem; color: cornflowerblue;"></i>
+                <div class="vr h-50 mx-4 mt-2"></div>
+            </div>
+            <div class="col py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-right text-muted">2020</div>
+                        <h4 class="card-title">Model Y</h4>
+                        <div class="card-text">
+                            <p>In March 2020, Tesla began deliveries of its fifth vehicle model, the <b>Model Y</b> crossover.</p>
+                        </div>
+                        <div><img src="/assets/bootstrap_timeline/Model_Y-8551c26bb07268ba17b0f3b270fdd426aa60793f2fc1093c356b36a2f20ed865.jpg" class="img-thumbnail w-50 h-50"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="vr h-50 mx-4 mb-2"></div>
+                <i class="bi bi-circle" style="font-size: 1.5rem; color: gray;"></i>
+                <div class="vr h-50 mx-4 mt-2"></div>
+            </div>
+            <div class="col py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-right text-muted">2017–2018</div>
+                        <h4 class="card-title">Model 3</h4>
+                        <div class="card-text">
+                            <p>Tesla began selling its fourth vehicle model, the <b>Model 3</b> sedan, in July 2017. The <b>Model 3</b> was a cheaper vehicle compared to previous Tesla vehicles, and was intended for the mass market.</p>
+                        </div>
+                        <div><img src="/assets/bootstrap_timeline/Model_3-5b0d5f6c5ad0385ab74a0dc0fd136f2cf4914ca35d9fb2cc9eaa4b4ce8b6f838.jpg" class="img-thumbnail w-50 h-50"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="vr h-50 mx-4 mb-2"></div>
+                <i class="bi bi-circle" style="font-size: 1.5rem; color: red;"></i>
+                <div class="vr h-50 mx-4 mt-2"></div>
+            </div>
+            <div class="col py-2">
+                <div class="card bg-dark text-light">
+                    <div class="card-body">
+                        <div class="float-right text-muted" id="10February2021">June 2012</div>
+                        <h4 class="card-title">Model S</h4>
+                        <div class="card-text">
+                            <p>In June the company launched its second car, the <b>Model S</b> luxury sedan.</p>
+                        </div>
+                        <div><img src="/assets/bootstrap_timeline/Model_S-848829d48352af0e202b2c59095ee3b0204b3e51eab802449788b98974287acc.jpg" class="img-thumbnail w-50 h-50"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-auto text-center flex-column d-none d-sm-flex"><div class="vr h-100 mx-4"></div></div>
+            <div class="col px-4">
+                <br>
+                <p>In <b>May 2010</b>, Tesla purchased what would later become the Tesla Factory in Fremont, California, from <b>Toyota</b> for <i>$42 million</i></p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="vr h-50 mx-4 mb-2"></div>
+
+                <i class="bi bi-circle" style="font-size: 1.5rem; color: orange;"></i>
+
+                <div class="vr h-50 mx-4 mt-2"></div>
+            </div>
+
+            <div class="col py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-right text-muted" id="16March2020">2005–2009</div>
+                        <h4 class="card-title">Roadster</h4>
+                        <div class="card-text">
+                            <p>Prototypes of Tesla's first car, the <b>Roadster</b>, were officially revealed to the public on July 19, 2006, in Santa Monica, California.</p>
+
+                            <p>Tesla began production of the <b>Roadster</b> in 2008.</p>
+
+                            <p>By January 2009, Tesla had raised <i>$187 million</i> and delivered <u>147 cars</u>. Musk had contributed <i>$70 million</i> of his own money to the company.</p>
+                        </div>
+                        <div><img src="/assets/bootstrap_timeline/Roadster-e1cb4aadda56e6edbca297e85ebdcc3bcffa1d4797e57add05c6966959ba7f33.jpg" class="img-thumbnail w-50 h-50"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                <div class="vr h-50 mx-4 mb-2"></div>
+                <i class="bi bi-hammer" style="font-size: 1.5rem;"></i>
+                <div class="h-50 mx-4 mt-4"></div>
+            </div>
+            <div class="col py-2">
+                <div class="card bg-dark text-light">
+                    <div class="card-body">
+                        <div class="float-right text-muted">2003–2004</div>
+                        <h4 class="card-title">Founding</h4>
+                        <div class="card-text">
+                            <p>The company was incorporated as <b>Tesla Motors, Inc.</b> on July 1, 2003.</p>
+                            <p>In February 2004, the company raised <i>$7.5 million</i> in series A funding, including <i>$6.5 million</i> from Elon Musk, who had received <i>$100 million</i> from the sale of his interest in <b>PayPal</b> two years earlier.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="my-3"><a href="/pages/bootstrap_5_timeline" class="btn btn-outline-primary"><i class="bi bi-arrow-left"></i> Return to article</a></div>
+        </div>
+
+    </div>
+</main></body>
+</html>

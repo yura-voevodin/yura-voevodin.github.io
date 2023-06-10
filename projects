@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ua" data-bs-theme="dark">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="description" content="Software Engineer (iOS, Swift) / Father from Ukraine" />
+  <meta name="keywords" content="iOS, Developer, Engineer, Blog, Ukraine" />
+
+  <!-- For new browsers - multisize ico  -->
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="favicon.ico">
+  
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon-152-precomposed.png">
+  
+  <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon-144-precomposed.png">
+  
+  <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon-120-precomposed.png">
+  
+  <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon-114-precomposed.png">
+
+  <title>Yura Voevodin - Projects</title>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="xbvV-jYajSoeYxVdDcFqKWrIamAXtP5-XIKu9WB5Mt-Y2GIzQc7UjTpyNzjyBM6isjpzkxAyPjjrw5VOAsVkGw" />
+  
+
+  <link rel="stylesheet" href="/assets/application-1339dd0c36414ad3e06e76dd55a1ef32106dc5c94d6c5136d27c820b8eced1ff.css" data-turbo-track="reload" />
+  <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-93f0769adf92766851dac7841b1d6daaf9ca2e2f51a0eb8d627e86469c422370.js",
+    "bootstrap": "https://ga.jspm.io/npm:bootstrap@5.2.0-beta1/dist/js/bootstrap.esm.js",
+    "@popperjs/core": "https://ga.jspm.io/npm:@popperjs/core@2.11.5/lib/index.js",
+    "jquery": "https://code.jquery.com/jquery-3.6.0.min.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-93f0769adf92766851dac7841b1d6daaf9ca2e2f51a0eb8d627e86469c422370.js">
+<script src="/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js" async="async" data-turbo-track="reload"></script>
+<script type="module">import "application"</script>
+</head>
+
+<body><main><div class="container">
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <a rel="nofollow" class="nav-link " href="http://localhost:3000/">
+            <i class="bi bi-house-fill"></i>
+</a>            <li class="nav-item"><a class="nav-link " href="timeline">Timeline</a></li>
+            <li class="nav-item"><a class="nav-link " href="personal">Personal</a></li>
+        </ul>
+    </header>
+</div>
+
+
+<div class="col-9 mx-auto py-md-5">
+
+    <div class="row fs-5 p-3 bg-dark-subtle rounded-3">
+
+        <div class="col-sm-5">
+            <img class="img-fluid" src="/assets/my-university-project-ef8271f5a2596fee54f0ed073cb0984a683d98a67639588cf808a4b185dbd33e.png" />
+        </div>
+
+        <div class="col">
+            <h4>My University</h4>
+
+            <ul class="list-unstyled">
+                <li class="mb-2"><a href="https://my-university.com.ua" rel="nofollow" target="_blank">my-university.com.ua</a> - web service and API on <a href="https://rubyonrails.org" rel="nofollow" target="_blank">Rails</a> framework</li>
+                <li class="mb-2"><a href="https://itunes.apple.com/ua/app/university-schedule/id1440425058" rel="nofollow" target="_blank">iOS app</a> with schedule for universities</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row fs-5 p-3 mt-5 bg-dark-subtle rounded-3">
+
+        <div class="col-sm-5">
+            <img class="img-fluid" src="/assets/blog-dafb283cade7de52610776bfe600196908cf1f0030ebdb9f4690109ed5859bb9.png" />
+        </div>
+
+        <div class="col">
+            <h4>Personal  website</h4>
+
+            <ul class="list-unstyled">
+                <li><a href="https://voevodin-yura.com" rel="nofollow" target="_blank">voevodin-yura.com</a> - website on <a href="https://rubyonrails.org" rel="nofollow" target="_blank">Rails</a> framework and <a href="https://getbootstrap.com" rel="nofollow" target="_blank">Bootstrap</a> toolkit <a href="https://github.com/yura-voevodin/blog-rails" rel="nofollow" target="_blank"><i class="bi bi-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row fs-5 p-3 mt-5 bg-dark-subtle rounded-3">
+
+        <div class="col-sm-5">
+            <img class="img-fluid" src="/assets/photoblog-ee0505e42681f7603bbb857819c7a662c978db491becb80900170955c718998e.png" />
+        </div>
+
+        <div class="col">
+            <h4>Photographer portfolio</h4>
+
+            <ul class="list-unstyled">
+                <li><a href="https://myphotoblog.herokuapp.com" rel="nofollow" target="_blank">myphotoblog.herokuapp.com</a> - website on <a href="https://rubyonrails.org" rel="nofollow" target="_blank">Rails</a> framework and <a href="https://getbootstrap.com" rel="nofollow" target="_blank">Bootstrap</a> toolkit <a href="https://github.com/yura-voevodin/photoblog" rel="nofollow" target="_blank"><i class="bi bi-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="pt-5 my-5 text-muted">
+	2019-2023
+</footer>
+
+</div>
+
+</main></body>
+</html>
