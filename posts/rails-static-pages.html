@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ua" data-bs-theme="dark">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="description" content="Yura Voevodin Personal Website" />
+  <meta name="keywords" content="iOS,iPadOS,macOS,tvOS,iPhone,iPad,iMac,MacBook,Developer,Swift" />
+
+  <!-- For new browsers - multisize ico  -->
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="favicon.ico">
+  
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon-152-precomposed.png">
+  
+  <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon-144-precomposed.png">
+  
+  <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon-120-precomposed.png">
+  
+  <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon-114-precomposed.png">
+
+  <title>Ruby on Rails static site generator</title>
+
+  <link rel="stylesheet" href="/assets/application-253e2981f7f11b87d0b4e9294ab5724bd1b063fa2e79de5fbb97c21307d810cc.css" data-turbo-track="reload" />
+  <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-93f0769adf92766851dac7841b1d6daaf9ca2e2f51a0eb8d627e86469c422370.js",
+    "bootstrap": "https://ga.jspm.io/npm:bootstrap@5.2.0-beta1/dist/js/bootstrap.esm.js",
+    "@popperjs/core": "https://ga.jspm.io/npm:@popperjs/core@2.11.5/lib/index.js",
+    "jquery": "https://code.jquery.com/jquery-3.6.0.min.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-93f0769adf92766851dac7841b1d6daaf9ca2e2f51a0eb8d627e86469c422370.js">
+<script src="/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js" async="async" data-turbo-track="reload"></script>
+<script type="module">import "application"</script>
+</head>
+
+<body><main><div class="container">
+      <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <a rel="nofollow" class="nav-link" href="/">
+                <i class="bi bi-house-fill"></i>
+</a>        </ul>
+    </header>
+</div>
+
+<div class="col-11 mx-auto p-3 py-md-5">
+
+    <div class="row fs-5">
+        <h1>Ruby on Rails static site generator</h1>
+
+<p class="text-muted">June 17, 2023</p>
+
+<p>How to generate a static website from a Ruby on Rails project. This is how I managed to publish this website 😉</p>
+
+<p class="text-muted">Based on <a href="https://nowaker.net/post/ruby-on-rails-a-static-site-generator.html" target="_blank">this post</a></p>
+
+<p><br></p>
+
+<h2>Rakefile</h2>
+
+<p>Add a namespace &quot;static&quot; with the two commands &quot;generate&quot; and &quot;server&quot; (<code class="prettyprint">rake static:generate</code> and <code class="prettyprint">rake static:generate</code>):</p>
+<div class="highlight"><pre class="highlight ruby"><code><span class="n">namespace</span> <span class="ss">:static</span> <span class="k">do</span>
+  <span class="n">desc</span> <span class="s1">'Generate static site in ./out/ directory'</span>
+  <span class="n">task</span> <span class="ss">:generate</span> <span class="k">do</span>
+    <span class="no">Dir</span><span class="p">.</span><span class="nf">mkdir</span> <span class="s1">'out'</span> <span class="k">unless</span> <span class="no">File</span><span class="p">.</span><span class="nf">exist?</span> <span class="s1">'out'</span>
+    <span class="no">Dir</span><span class="p">.</span><span class="nf">chdir</span> <span class="s1">'out'</span> <span class="k">do</span>
+      <span class="sb">`wget -mnH http://localhost:3000/`</span>
+    <span class="k">end</span>
+    <span class="sb">`rsync -ruv --exclude=.svn/ public/ out/`</span>
+  <span class="k">end</span>
+
+  <span class="n">desc</span> <span class="s1">'Run tiny HTTP server from ./out/ directory'</span>
+  <span class="n">task</span> <span class="ss">:server</span> <span class="k">do</span>
+    <span class="no">Dir</span><span class="p">.</span><span class="nf">chdir</span> <span class="s1">'out'</span> <span class="k">do</span>
+      <span class="nb">puts</span> <span class="s1">'Started HTTP server at http://localhost:9000/. Press CTRL+C to exit.'</span>
+      <span class="sb">`python3 -m http.server 9000`</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+<p><br></p>
+
+<h2>.gitignore</h2>
+
+<p>Add the &quot;out&quot; folder to the .gitignore file:</p>
+<div class="highlight"><pre class="highlight plaintext"><code>/out/*
+</code></pre></div>
+<p><br></p>
+
+<h2>routes.rb</h2>
+
+<p>All routes that would be presented on the static website should have a <code class="prettyprint">.html</code> format, for example:</p>
+<div class="highlight"><pre class="highlight ruby"><code><span class="n">get</span> <span class="s2">"rails-static-pages"</span><span class="p">,</span> <span class="ss">to: </span><span class="s2">"posts#static"</span><span class="p">,</span> <span class="ss">:defaults</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="ss">:format</span> <span class="o">=&gt;</span> <span class="s1">'html'</span> <span class="p">}</span>
+</code></pre></div>
+<p>Also, all links in the <code class="prettyprint">*.erb</code> files show have a <code class="prettyprint">.html</code> in the end, for example:</p>
+<div class="highlight"><pre class="highlight erb"><code><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s2">"Timeline"</span><span class="p">,</span> <span class="s2">"timeline.html"</span> <span class="cp">%&gt;</span>
+</code></pre></div>
+<p><br></p>
+
+<h2>Ready to generate</h2>
+
+<p>Now start a rails server</p>
+<div class="highlight"><pre class="highlight console"><code><span class="go">rails s
+</span></code></pre></div>
+<p>And run this command in a separate tab</p>
+<div class="highlight"><pre class="highlight console"><code><span class="go">rake static:generate
+</span></code></pre></div>
+<p>Test the website with an HTTP server</p>
+<div class="highlight"><pre class="highlight console"><code><span class="go">rake static:server
+</span></code></pre></div>
+<p><br></p>
+
+<h2>GitHub Pages</h2>
+
+<p>Now you can upload the contents of the &quot;out&quot; folder to GitHub and publish for free on GitHub Pages.<br>
+Details and instructions on how to do this can be found here: <a href="https://pages.github.com/" rel="nofollow" target="_blank">pages.github.com</a></p>
+
+    </div>
+    
+    <footer class="pt-5 my-5 text-muted">
+	<ul class="list-unstyled text-small">
+		<li>2019-2023</li>
+		<li><a href="/ua.html">UA</a></li>
+	</ul>
+</footer>
+
+</div>
+</main></body>
+</html>
